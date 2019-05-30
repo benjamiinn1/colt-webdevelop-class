@@ -1,0 +1,11 @@
+<% include partials/header %>
+
+<h1>you like: <%= thingVar.toUpperCase() %></h1>
+
+<% if(thingVar.toLowerCase() === "rusty"){ %>
+    <p>GOOD CHOICE! RUSTY IS THE BEST!</p>
+<% } else { %>
+    <p>Bad Choice</p>
+<% } %>
+<p>p.s. this is the like.ejs file</p>
+<% include partials/footer %>
